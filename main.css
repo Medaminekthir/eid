@@ -1,0 +1,21 @@
+#mother_container_id{
+
+    position: relative;
+    display: grid;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid green;
+
+     
+   grid-template-columns: repeat(3, minmax(50px, 2fr));   
+}
+img{
+    width: 100px ;height: 100px;
+}
+#klem{
+    color: red;position: relative;
+    justify-content: center;align-items: center;
+}
